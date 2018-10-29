@@ -91,7 +91,7 @@ Logs are recored in ``logs.log``, where you can follow the decision tree for eac
 * Using NumPy to improve performance in sorting.
 * Using Python ``sorted`` library to partial processing speed optimisation.
 * Utilising a database in the case of big data that includes a scaled size of customers and colours to produce.
-* Using Elastic to search for common orders and other optimisation tasks, that could yeild into performance improvement in ithe case of larger data sizes.
+* Using Elastic to search for common orders and other optimisation tasks, that could yeild into performance improvement in the case of larger data sizes.
 
 
 
