@@ -72,7 +72,7 @@ The algorithm follows the following logic in order
 1) The ``paintshop.py`` reads the test case file and process it to ``test_processing.py``, which then:
 2) Check if any customer ordered more than 1 Matte, and reject the order if so
 3) Try to sastisfy customers with single orders first, if any failed, reject order.
-4) If all single order customers are satisfied with no contradictions (ex. one of them order red glossy and the other order red but Matte), the algorithm then try to satisfy each remaining customer, preferably with a colour already produced, or the most common Glossy colour, if not, then most common Matte colour. The most common is counted based on the remaining unsatisfied orders.
+4) If all single order customers are satisfied with no contradictions (ex. one of them order red glossy and the other order red but Matte), the algorithm then try to satisfy each remaining customer, preferably with a colour already produced, or the most common Glossy colour, if not, then most common Matte colour. The most common is counted based on the remaining unsatisfied customers orders.
 
 5) If the algorithm managed to satisfy all orders, it returns back the colours processing to ``paintshop.py`` which then print it, if failed, it inform as well ``paintshop.py`` to print impossible. The algorithm sends the Case number as well along the result.
 
