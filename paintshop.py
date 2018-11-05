@@ -23,8 +23,11 @@ if __name__ == '__main__':
                 order_tuple = order_tuple + (option,)
             order_list = [0,order_tuple]
             customers_test.append(order_list)
-        result = test_processing.process_orders(customers_test,color_count, produce_all = 1)
+        try:
+            result = test_processing.process_orders(customers_test, color_count)
+        except:
+            print('an error happened while trying to process the order')
         if result:
-            print('Case #',i+1,':',*result)
+            print('Case #', i+1, ':', *result)
         else:
-            print ('Case #',i+1,': IMPOSSIBLE')
+            print('Case #', i+1, ': IMPOSSIBLE')
