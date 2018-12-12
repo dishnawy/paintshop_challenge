@@ -103,6 +103,6 @@ Logs are recored in ``logs.log``, where you can follow the decision tree for eac
 
 ## Meta
 
-Dish – dish@floralytics.com
+Dish – engmeldishnawy@gmail.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information. This project was made with confidentiality and shared only for knowledge, you are not allowed to share that code in an interview process with any company, or fork it for that. 
