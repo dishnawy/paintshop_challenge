@@ -1,5 +1,5 @@
 # Paint Shop Challenge
-> This code is written as part of Zalando interview process. 
+> This code is a proposed answer to the common paintshop challenge in coding.
 
 A paint shop needs to satisfy customers orders, one order per customer would be enough to satisfy a customer order. At the sametime, the paintshop would like to minimize the number of Matte orders as much as possible.
 
@@ -29,7 +29,6 @@ A file with name ``test_cases.txt`` is provided for testing purposes.
 1 1 0
 1 1 1
 ```
-Refer to Zalando Challenge description for INPUT explanation.
 ### To run the code:
 ```sh
 python paintshop.py
@@ -98,7 +97,7 @@ Logs are recored in ``logs.log``, where you can follow the decision tree for eac
 ## Release History
 
 * 0.1.0
-    * First version submitted to Zalando
+    * First version submitted
 * 0.0.1
     * Work in progress
 
@@ -106,4 +105,4 @@ Logs are recored in ``logs.log``, where you can follow the decision tree for eac
 
 Dish – dish@floralytics.com
 
-Distributed under the MIT license. See ``LICENSE`` for more information. This project was made with confidentiality to Zalando as part of their hiring process.
+Distributed under the MIT license. See ``LICENSE`` for more information. This project was made with confidentiality and shared only for knowledge, you are not allowed to share that code in an interview process with any company, or fork it for that. 
